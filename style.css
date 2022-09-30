@@ -80,3 +80,27 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
+.animated-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4.5s steps(80, end);
+}
+
+h1 {
+  color: palevioletred;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#cat:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  border-radius: 40%;
+}
