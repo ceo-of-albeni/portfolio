@@ -9,6 +9,10 @@ a {
   color: white;
 }
 
+.footer_contacts {
+  margin-left: 80px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -103,4 +107,16 @@ h1 {
   transform: rotate(360deg);
   transition: 2s;
   border-radius: 40%;
+}
+
+.footer_head {
+  font-size: 24px;
+}
+
+#info2 {
+  display: none;
+}
+
+.footer_img {
+  display: none;
 }
