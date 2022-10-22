@@ -214,12 +214,39 @@
   }
 
   #info2 {
-    font-size: 13px;
+    font-size: 19px;
   }
 
-  /* #logo {
-    margin-left: 45%;
-  } */
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px double palevioletred;
+  }
+
+  .aboutme {
+    border: 2px solid palevioletred;
+  }
+
+  .portfolio {
+    border: 2px double palevioletred;
+  }
+
+  .footer {
+    border: 2px dotted palevioletred;
+  }
+
+  #photo_of_me {
+    width: 200px;
+  }
+
+  #button {
+    margin-right: 120px;
+  }
+
+  #logo {
+    margin-left: 43%;
+  }
 
   .footer_img {
     width: 70%;
