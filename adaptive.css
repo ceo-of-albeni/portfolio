@@ -1,8 +1,13 @@
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1201px) {
   .aboutme img {
     width: 250px;
     height: 200px;
   }
+
+  #button {
+    margin-left: 100px;
+  }
+
   .aboutme h4 {
     font-size: 12px;
   }
@@ -20,6 +25,12 @@
 @media all and (max-width: 1130px) {
   #kira {
     font-size: 10px;
+  }
+}
+
+@media all and (max-width: 1110px) {
+  #button #button_img {
+    width: 120px;
   }
 }
 
@@ -73,7 +84,6 @@
 
   #photo_of_me {
     width: 200px;
-    height: 250px;
   }
 }
 
@@ -86,7 +96,6 @@
 @media all and (max-width: 685px) {
   #photo_of_me {
     width: 160px;
-    height: 210px;
   }
 
   .footer {
@@ -158,7 +167,6 @@
 
   #photo_of_me {
     width: 150px;
-    height: 200px;
   }
 
   .biggest {
@@ -183,23 +191,35 @@
 
 @media all and (max-width: 474px) {
   #info2 {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   #photo_of_me {
     width: 120px;
-    height: 170px;
   }
 
   .footer_contacts {
     margin-left: 0;
   }
+
+  .footer_img {
+    width: 45%;
+    height: 45%;
+  }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 414px) {
   .link {
     display: none;
   }
+
+  #info2 {
+    font-size: 13px;
+  }
+
+  /* #logo {
+    margin-left: 45%;
+  } */
 
   .footer_img {
     width: 70%;
